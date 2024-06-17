@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #007FFF, #ADD8E6);
+    text-align: center;
+    color: white;
+}
+
+.box {
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(6, 64, 82, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 3px solid rgba(14, 83, 104, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #041048;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgb(20, 5, 223);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    background-color: rgb(12, 3, 40);
+    border-radius: 20px;
+    box-shadow: 0px 35px 80px rgba(62, 197, 238, 0.6);
+    transition: 0.5s;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.card:hover {
+    height: 400px;
+}
+
+.card .img-left {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 0px;
+    transition: 0.5s;
+}
+
+.card:hover .img-left {
+    top: -100px;
+    scale: 0.75;
+}
+
+.card .img-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.card .content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    top: 260px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card:hover .content {
+    top: 130px;
+    height: 250px;
+}
+
+.card .read-more {
+    background: linear-gradient(90deg,#4bc007, #1d4601);
+    padding: 12px;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 8px;
+}
+
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    background-color: rgb(12, 3, 40);
+    border-radius: 20px;
+    box-shadow: 0px 35px 80px rgba(062, 197, 238, 0.6);
+    transition: 0.5s;
+    margin-left: 460px;
+    margin-top: -300px;
+}
+
+.card2:hover {
+    height: 400px;
+}
+
+.card2 .img-center {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 0px;
+    transition: 0.5s;
+}
+
+.card2:hover .img-center {
+    top: -100px;
+    scale: 0.75;
+}
+
+.card2 .img-center img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.card2 .content2 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    top: 260px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card2:hover .content2 {
+    top: 130px;
+    height: 250px;
+}
+
+.card2 .read-more2 {
+   background: linear-gradient(90deg,#4bc007, #1d4601);
+   padding: 12px;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 8px;
+}
+
+
+
+.card3 {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    background-color:rgb(12, 3, 40);
+    border-radius: 20px;
+    box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+    margin-left: 860px;
+    margin-top: -300px;
+}
+
+.card3:hover {
+    height: 400px;
+}
+
+.card3 .img-right {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 0px;
+    transition: 0.5s;
+}
+
+.card3:hover .img-right {
+    top: -100px;
+    scale: 0.75;
+}
+
+.card3 .img-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.card3 .content3 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    top: 260px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+    transition: 0.5s;
+   
+}
+
+.card3:hover .content3 {
+    top: 130px;
+    height: 250px;
+}
+
+.card3 .read-more3 {
+   background: linear-gradient(90deg, #4bc007, #1d4601);
+   padding: 12px;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 8px;
+}
